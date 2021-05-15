@@ -259,7 +259,7 @@
                             } else {
                                 S.Shape.switchShape(S.ShapeBuilder.letter(index), true);
                             }
-                        }, 1800, value, true);
+                        }, 1500, value, true);
                         break;
 
                     case 'rectangle':
@@ -294,7 +294,7 @@
                     default:
                         S.Shape.switchShape(S.ShapeBuilder.letter(current[0] === cmd ? 'HacPai' : current));
                 }
-            }, 3800, sequence.length);
+            }, 3200, sequence.length);
         }
 
         return {
